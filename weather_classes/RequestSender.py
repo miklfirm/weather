@@ -1,10 +1,9 @@
 import requests
-API_KEY = '342bd634cd094b3eac0163643240501'
-URL = f'http://api.weatherapi.com/v1/current.json'
+import sys
+sys.path.append("..")
+from config.global_config import *
 
 class Connection:
-    API_KEY: str
-    URL: str
     city: str
 
     def __init__(self):

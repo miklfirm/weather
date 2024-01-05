@@ -1,7 +1,7 @@
 import pandas
 
 class DataWriter:
-    df: object
+    info: dict
 
     def __init__(self):
         df1 = None
